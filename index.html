@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>音乐播放器</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #fff;
+        }
+        .player-container {
+            text-align: center;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+            width: 350px;
+        }
+        .player-container h1 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+        iframe {
+            border-radius: 10px;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #ccc;
+        }
+        .footer a {
+            color: #50b3ff;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="player-container">
+        <h1>🎵 享受音乐时光 🎵</h1>
+        <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=1420533652&auto=1&height=66"></iframe>
+        <div class="footer">
+            <p>音乐来源于 <a href="https://music.163.com/" target="_blank">网易云音乐</a></p>
+        </div>
+    </div>
+</body>
+</html>
